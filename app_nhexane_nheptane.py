@@ -8,7 +8,7 @@ st.set_page_config(page_title="VLE Diagrams - n-Hexane and n-Heptane", layout="c
 st.title("T-x-y and x-y Diagram for n-Hexane + n-Heptane System")
 
 st.markdown("""
-#### Submitted by: **Mohd Ali Khan**  
+#### Submitted by: **Mohtashim Farooqui**  
 **To:** Prof. Imran Mohammad  
 **Department of Petrochemical Engineering**  
 **UIT RGPV, Bhopal**
@@ -17,7 +17,7 @@ st.markdown("""
 
 ### System Studied: n-Hexane + n-Heptane
 
-This app calculates and plots T-x-y and x-y diagrams for an ideal binary mixture using Raoult's Law and Antoine Equation.
+This app calculates and plots T-x-y and x-y diagrams for an ideal binary mixture using Raoult's Law and Antoine's Equation.
 """)
 
 # Antoine constants
@@ -79,9 +79,9 @@ st.markdown("""
 ---
 
 ### Notes:
-- Antoine Equation:  \( P_{\text{sat}} = 10^{A - B / (C + T)} \)
-- Bubble point T: Solve \( x P_{hex} + (1 - x) P_{hept} = P_{\text{total}} \)
-- Vapor mole fraction: \( y = \frac{x P_{hex}}{P_{\text{total}}} \)
+- Antoine Equation: $$P_{\text{sat}} = 10^{A - B / (C + T)}$$
+- Bubble point T: $$x P_{hex} + (1 - x) P_{hept} = P_{\text{total}}$$
+- Vapor mole fraction: $$y = \frac{x P_{hex}}{P_{\text{total}}}$$
 
 This app visualizes VLE behavior of an ideal binary system.
 
