@@ -75,15 +75,18 @@ ax2.legend()
 ax2.grid()
 st.pyplot(fig2)
 
+st.markdown("### Notes")
 st.markdown("""
----
+- Antoine Equation:  
+  $$P_{\\text{sat}} = 10^{A - \\frac{B}{C + T}}$$
 
-### Notes:
-- Antoine Equation: $$P_{\text{sat}} = 10^{A - B / (C + T)}$$
-- Bubble point T: $$x P_{hex} + (1 - x) P_{hept} = P_{\{total}}$$
+- Bubble point temperature:  
+  $$x_1 P_1^{sat} + x_2 P_2^{sat} = P_{\\text{total}}$$
 """)
 
+st.latex(r"y = \frac{x_1 P_1^{sat}}{P_{total}}")
+
 st.markdown("""
-This app visualizes VLE behavior of an ideal binary system.
+This app is useful for visualizing VLE behavior of a non-azeotropic binary system.
 
 """)
