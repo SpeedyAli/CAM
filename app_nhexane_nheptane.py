@@ -81,7 +81,9 @@ st.markdown("""
 ### Notes:
 - Antoine Equation: $$P_{\text{sat}} = 10^{A - B / (C + T)}$$
 - Bubble point T: $$x P_{hex} + (1 - x) P_{hept} = P_{\{total}}$$
+""")
 
+st.markdown("""
 This app visualizes VLE behavior of an ideal binary system.
 
 """)
