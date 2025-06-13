@@ -80,8 +80,7 @@ st.markdown("""
 
 ### Notes:
 - Antoine Equation: $$P_{\text{sat}} = 10^{A - B / (C + T)}$$
-- Bubble point T: $$x P_{hex} + (1 - x) P_{hept} = P_{\text{total}}$$
-- Vapor mole fraction: $$y = \frac{x P_{hex}}{P_{\text{total}}}$$
+- Bubble point T: $$x P_{hex} + (1 - x) P_{hept} = P_{\{total}}$$
 
 This app visualizes VLE behavior of an ideal binary system.
 
